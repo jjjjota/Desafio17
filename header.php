@@ -24,7 +24,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <img class="navbar-brand" src="images/latam_logo.png"/>
+        <img class="navbar-brand" src="<?php echo get_bloginfo('template_url') ?>/images/latam_logo.png"/>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
