@@ -13,7 +13,7 @@
 
 <body>
   <!-- NAVBAR ------------------------------------------------------------------------------------->
-  <nav class="navbar navbar-inverse">
+  <nav class="navbar navbar-transparent navbar-inverse">
     <div class="container-fluid">
 
       <!-- Brand and toggle get grouped for better mobile display -->
