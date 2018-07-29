@@ -25,14 +25,15 @@ nav {
 .navbar {
   position: fixed;
   border: none;
+  border-radius: 0;
 }
 
 .navbar-transparent {
   background: rgba(0, 0, 0, 0);
 }
 
-nav .navbar-collapse {
-  background: rgba(0, 0, 0, 0.6);
+.navbar-collapse {
+  /* background: rgba(0, 0, 0, 0.8); */
 }
 
 /* HEADER *****************************************************************************************/
@@ -139,5 +140,9 @@ footer h3 {
 @media (min-width: 0px) and (max-width: 767px) {
     div.suscribete {
         margin-top: 30px;
+    }
+
+    .navbar-collapse {
+      background: rgba(0, 0, 0, 0.8);
     }
 }
