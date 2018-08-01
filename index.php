@@ -7,7 +7,7 @@
     <div class="container">
 
       <h1>
-        COMIENZA UNA NUEVA VIDA Y ÚNETE AL MUNDO <br/> TECNOLÓGICO
+        <?php echo get_field( 'titulo_banner' ) ?>
       </h1>
       <button type="button" class="btn btn_blue">Comienza acá!</button>
       <button type="button" class="btn btn_green">Más Info</button>
